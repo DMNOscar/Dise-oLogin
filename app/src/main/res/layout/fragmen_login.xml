@@ -105,7 +105,7 @@
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:background="@drawable/login_fondo_boton_aceptar"
+        android:background="@drawable/ejemplofiguras"
         android:text="@string/btn_aceptar"
         android:textSize="20sp"
         android:textAllCaps="false"
