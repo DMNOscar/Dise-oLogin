@@ -12,7 +12,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_centerVertical="true"
-    >
+    android:layout_alignParentStart="true">
+
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="100dp"
@@ -31,8 +32,7 @@
         android:layout_marginStart="30dp"
         android:background="@drawable/login_contenedor"
         android:elevation="10dp"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:gravity="center">
 
         <TextView
             android:id="@+id/txtEntrar"
@@ -43,7 +43,6 @@
             android:layout_marginTop="30dp"
             android:textSize="30sp"
             />
-
 
         <LinearLayout
             android:id="@+id/layoutContenedorUsuario"
@@ -105,7 +104,7 @@
     <Button
         android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:layout_margin="18dp"
+        android:layout_marginTop="18dp"
         android:background="@drawable/login_fondo_boton_aceptar"
         android:text="@string/btn_aceptar"
         android:textSize="20sp"
